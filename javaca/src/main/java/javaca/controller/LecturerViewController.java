@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import javaca.model.LecturerCourse;
-import javaca.service.LecturerCourseService;
+import javaca.service.LecturerCourseServiceImpl;
 
 @Controller
-public class LecturerViewCourses {
+public class LecturerViewController {
 	@Autowired
-	private LecturerCourseService service;
+	private LecturerCourseServiceImpl service;
 
 	@RequestMapping(value = "/lecturer-course", method = RequestMethod.GET)
 	public ModelAndView getAll() {
