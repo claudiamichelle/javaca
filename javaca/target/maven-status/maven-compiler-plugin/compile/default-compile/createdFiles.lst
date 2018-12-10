@@ -1,0 +1,15 @@
+javaca\repository\UserRepository.class
+javaca\repository\StudentCourseRepository.class
+javaca\repository\UserRoleRepository.class
+javaca\model\LecturerCourse.class
+javaca\model\UserRole.class
+javaca\repository\LoginRepository.class
+javaca\model\Course.class
+javaca\repository\CourseRepository.class
+javaca\model\Login.class
+javaca\model\User.class
+javaca\repository\LecturerCourseRepository.class
+javaca\controller\LecturerViewCourses.class
+javaca\model\StudentCourse.class
+javaca\MainApplication.class
+javaca\service\LecturerCourseService.class

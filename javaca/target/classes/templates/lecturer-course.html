@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>Lecturer Course</title>
+	<link rel="stylesheet" th:href="@{/css/custom.css}" />
+	<link rel="stylesheet" th:href="@{/css/main.css}" />
+</head>
+
+<body>
+	<h1 align="center">Lecturer Course</h1>
+	<table id="t02" cellpadding="2">
+		<tr>
+			<th><a href=""><h2>link to somewhere...</h2></a></th>
+
+			<th><a align="right" href="/delete"><h2>link to another place...</h2></a></th>
+		</tr>
+	</table>
+	<table>
+
+
+	</table>
+
+	<form:form>
+		<table id="t01" border="2" width="70%" cellpadding="2">
+			<tr>
+				<th>Teaching ID</th>
+				<th>Status</th>
+				<th>Course ID</th>
+				<th>User ID</th>
+				<th></th>
+			</tr>
+
+
+			<tr th:each="lecturercourse : ${list}">
+				<td th:text="${lecturercourse.teachingID}"></td>
+				<td th:text="${lecturercourse.status}"></td>
+				<td th:text="${lecturercourse.CourseID}"></td>		
+				<td th:text="${lecturercourse.UserID}"></td>	
+				  
+			</tr>
+
+		</table>
+		<br />
+
+
+	</form:form>
+</body>
+
+
+</html>
