@@ -6,5 +6,6 @@ import javaca.model.Login;
 public interface LoginService {
 
  	List<Login> findAll();
+ 	
 
 }

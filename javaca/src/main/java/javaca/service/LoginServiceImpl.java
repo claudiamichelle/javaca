@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javaca.model.Login;
-import javaca.repository.LecturerCourseRepository;
 import javaca.repository.LoginRepository;
 
 @Service
